@@ -12,5 +12,8 @@ insert_final_newline = false
 [*.{go,py,rb,php}]
 indent_size = 4
 
+[*.sass]
+indent_style = tab
+
 [*.md]
 trim_trailing_whitespace = false
