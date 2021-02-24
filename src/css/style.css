@@ -1,22 +1,16 @@
-/*? Settings */
-
 * {
   font-family: "Roboto", sans-serif;
 }
 
-/*? Header Section */
-
 .header {
-  height: 53px; /*! для липокого меню */
+  height: 53px;
   position: relative;
 }
 
 .header-nav {
-  /*! для липокого меню */
   position: fixed;
   width: 100%;
   z-index: 2;
-  /*! */
   height: 53px;
   background: #212121;
 }
@@ -46,7 +40,7 @@
 }
 
 .subheader {
-  top: 53px; /*! для липокого меню */
+  top: 53px;
   position: absolute;
   width: 100%;
   min-height: 84px;
@@ -101,8 +95,6 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-
-/*? Promo Section*/
 
 .promo {
   min-height: 666px;
@@ -165,8 +157,6 @@
   color: #ffffff;
 }
 
-/*? Advantages Section */
-
 .advantages {
   min-height: 900px;
   background: #ffffff;
@@ -177,7 +167,7 @@
   text-align: center;
 }
 
-.advantages .advantages-header .advantages-header_descr {
+.label {
   margin: 0px;
   margin: 0px auto;
   padding-top: 4px;
@@ -191,7 +181,7 @@
   color: #ffffff;
 }
 
-.advantages .advantages-header .advantages-header_title {
+.title {
   margin: 0px;
   margin-top: 38px;
   font-size: 37px;
